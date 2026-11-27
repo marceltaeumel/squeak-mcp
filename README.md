@@ -1,10 +1,10 @@
 # SqueakMCP
 
-An MCP (Model Context Protocol) server implementation for Squeak/Smalltalk, enabling AI assistants like Claude to interact with a live Squeak image.
+An [MCP (Model Context Protocol)](https://en.wikipedia.org/wiki/Model_Context_Protocol) server implementation for Squeak/Smalltalk, which enables AI coding assistants (such as [Claude](https://en.wikipedia.org/wiki/Claude_(AI))) to interact with a live and running Squeak/Smalltalk system.
 
 ## Overview
 
-SqueakMCP bridges AI coding assistants with the Squeak programming environment. The MCP server runs inside the Squeak image and exposes tools for code navigation, evaluation, and modification.
+SqueakMCP connects AI coding assistants with the Squeak/Smalltalk programming system. The MCP server runs inside the Squeak system and exposes _tool functions_ for various programming tasks such as code navigation, evaluation, and modification. Any compatible MCP client such as [OpenCode](https://opencode.ai/) will do to communicate with the server and thus explore or change the live Smalltalk system.
 
 ## Usage
 
@@ -16,7 +16,14 @@ SqueakMCP bridges AI coding assistants with the Squeak programming environment. 
 ### Setup
 
 **Load the MCP Server in Squeak**  
-*TODO*
+```smalltalk
+Metacello new
+  baseline: 'SqueakMCP';
+"repository: 'github://profile-name/squeak-mcp:main/packages'; --- e.g., profile-name for custom fork"
+  repository: 'github://hpi-swa-lab/squeak-mcp:main/packages';
+"get; --- for updates"
+  load.
+```
 
 **Start the MCP Server**  
 ```smalltalk
