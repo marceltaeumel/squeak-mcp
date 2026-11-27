@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : [
+	#mappers : OrderedCollection [
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
@@ -23,6 +23,15 @@ GSMetadata {
 			#version : 1,
 			#package : MCPackage {
 				#name : 'OpenCode-Client'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'BaselineOfSqueakMCP'
 			},
 			#path : FSAbsolutePath [
 				'packages'

@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSqueakMCP",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSqueakMCP",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
