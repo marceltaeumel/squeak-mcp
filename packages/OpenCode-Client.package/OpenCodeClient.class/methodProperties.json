@@ -4,7 +4,7 @@
 		"initialize" : "jpau 4/9/2026 12:33",
 		"withUrl:" : "jpau 4/9/2026 12:34" },
 	"instance" : {
-		"buildPromptBody:" : "MCPServer 4/14/2026 14:41",
+		"buildPromptBody:" : "unknown-MCPServer 4/14/2026 14:41",
 		"disconnect" : "jpau 4/9/2026 12:41",
 		"dispatchEvent:" : "jpau 4/9/2026 13:02",
 		"ensureSession:" : "jpau 4/9/2026 13:56",
